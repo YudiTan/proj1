@@ -28,10 +28,11 @@ class PokemonsController < ApplicationController
     poke = Pokemon.find(params[:id])
     poke[:health] -= 10
     poke.save
+    trainerId = poke.trainer_id.to_s
     if poke[:health] <= 0
       poke.destroy
     end
-    redirect_to "/trainers/" + current_trainer.id.to_s
+    redirect_to "/trainers/" + trainerId
   end
 
 
