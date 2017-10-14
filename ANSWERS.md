@@ -23,4 +23,8 @@
 
 # Give us feedback on the project and decal below!
 
+-- love this project!
+
 # Extra credit: Link your Heroku deployed app
+
+-- https://railspokemaster.herokuapp.com/
