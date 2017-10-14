@@ -7,6 +7,7 @@ class TrainersController < ApplicationController
 
   def show
     @trainer = Trainer.find(params[:id])
+    @curr = current_trainer.id
   end
 
 end
