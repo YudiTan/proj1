@@ -26,5 +26,5 @@
 -- love this project!
 
 # Extra credit: Link your Heroku deployed app
-
+-- https://github.com/YudiTan/proj1
 -- https://railspokemaster.herokuapp.com/
